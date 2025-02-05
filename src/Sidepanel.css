@@ -1,0 +1,15 @@
+.nav-pills li a:hover{
+    background-color: #14bc9A;
+}
+
+.side{
+    background-color: #263238 !important;
+}
+
+.my-4{
+    margin-top: 4 !important
+}
+
+.row{
+    display:flex;
+}

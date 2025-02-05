@@ -1,0 +1,84 @@
+
+.Side-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar-light{
+    display:flex;
+}
+
+.mainscreen{
+    background-color:aliceblue;
+    /* position:relative; */
+    display:flex;
+}
+
+.button .btn{
+    color: #14bc9A !important;
+}
+
+.fileuploader{
+    background-color: green;
+    display:none;
+  }
+
+  .fileuploaderbutton:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .fileuploaderbutton{
+    background-color: #14bc9A;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+.pdf-logo{
+    width:15vmin;
+    height:20vmin;
+    padding-top: 5vmin;
+  }
+
+  .pdf-container {
+    width: 100%;
+    height: 90vh; /* Set fixed height for scrolling */
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding: 15px; /* Adds equal padding inside the container */
+    border: 1px solid #ddd; /* Optional: Adds a subtle border */
+    background-color: white; /* Ensures a clean background */
+  }
+  
+  .pdf-page {
+    max-width: 100%; /* Ensures the PDF fits within the container */
+    margin: auto; /* Centers the PDF pages */
+  }
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-bottom: 60px; /* Space for input field */
+  }
+  
+  .chat-bubble {
+    /* background-color: #f8f9fa; */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    max-width: 80%;
+  }
+
+
